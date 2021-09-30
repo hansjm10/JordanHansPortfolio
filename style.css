@@ -1,0 +1,116 @@
+*{
+    margin: auto;
+    background-color:#fafae0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #283618
+}
+.container-1{
+    display:flex;
+    flex-direction: column;
+    align-items:space-evenly;
+    column-gap: 50px;
+}
+.container-column{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.container-rows
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width:100%;
+    min-width:25%;
+    max-height: 100%;
+    min-height: 25%;
+}
+.header-img{
+    max-width: 100%;
+}
+
+.divider{
+    margin-top: 20px;
+    border:4px #bc6c25 solid;
+    border-radius: 10px;
+    width: 80%;
+}
+.container-2-box-2 img{
+    margin-top: 20px;
+    border-radius:50%;
+    max-width: 100%;
+    max-height: 150px;
+}
+.box-section {
+    margin-top: 50px;
+}
+.nested-container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    background-color: #dda15e;
+    margin-top:10px;
+    padding:10px !important;
+    border-radius:100%;
+}
+.nested-container-2 div{
+    background-color: #dda15e;
+    border-radius:85%;
+    margin: 15px;
+    padding:50px;
+    max-width:25%;
+}
+.nested-container-2 div p
+{
+    background-color: #dda15e;
+}
+.nested-container-2 div:nth-child(2) p {
+    margin: 5px;
+    text-align: right;
+}
+.container-4 > div {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    border: 5px #283618 solid;
+    margin: 20px;
+}
+.project-info-picture
+{
+    flex-wrap: nowrap;
+}
+.project-name
+{
+    margin: 0;
+}
+.project-pic{
+   margin:3px;
+    
+}
+.project-pic > img {
+    width:100%;
+    max-height: 600px;
+}
+.project-container{
+    flex-wrap: nowrap;
+}
+.stack-info{
+    justify-content: left;
+    align-items:flex-start;
+    min-width: auto;
+}
+.stack-info div
+{
+    margin: 5px;
+    
+}
+.stack > img
+{
+    max-width:50px;
+    height:50px;
+}
