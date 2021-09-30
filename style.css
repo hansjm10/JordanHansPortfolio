@@ -1,8 +1,36 @@
 *{
     margin: auto;
     background-color:#fafae0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #283618
+}
+body
+{
+    font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif!important;
+}
+@media screen and (max-width: 991px)
+{
+    h1{
+        font-size: 36;
+    }
+    h2{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 767px) {
+    h1{
+        font-size: 38px;
+    }
+    h2{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 479px){
+    h1{
+        font-size: 42px;
+    }
+    h2{
+        font-size: 34px;
+    }
 }
 .container-1{
     display:flex;
@@ -30,10 +58,15 @@
 .header-img{
     max-width: 100%;
 }
+.box-2{
+    margin-top: 100px;
+    
+}
 
 .divider{
-    margin-top: 20px;
-    border:4px #bc6c25 solid;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border:2px #bc6c25 solid;
     border-radius: 10px;
     width: 80%;
 }
@@ -42,11 +75,14 @@
     border-radius:50%;
     max-width: 100%;
     max-height: 150px;
+    box-shadow: 5px 10px 5px #000;
 }
 .box-section {
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .nested-container-2 {
+    margin-top:10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,10 +96,11 @@
 }
 .nested-container-2 div{
     background-color: #dda15e;
-    border-radius:85%;
+    border: #283618 2px solid;
     margin: 15px;
-    padding:50px;
+    padding:2px;
     max-width:25%;
+    box-shadow: 2px 6px 5px #000;
 }
 .nested-container-2 div p
 {
@@ -77,8 +114,10 @@
     display: flex;
     justify-content: center;
     max-width: 600px;
+    min-width: 300px;
     border: 5px #283618 solid;
     margin: 20px;
+    box-shadow: 5px 10px 5px #000;
 }
 .project-info-picture
 {
@@ -113,4 +152,34 @@
 {
     max-width:50px;
     height:50px;
+}
+
+.contact-me > p
+{
+    padding: 15px;
+}
+.contact-me > p > img
+{
+    max-width:25px;
+    height:25px;
+}
+.left-side{
+    margin-right: 20px;
+    align-content: center;
+    justify-content: center;
+}
+.right-side{
+    margin-left: 20px;
+}
+.contact-me-container{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.divider-contact{
+    border-radius: 10px;
+    height: 140px;
+    border: 2px #bc6c25 solid;
+}
+.created-by{
+    text-align: right;
 }
