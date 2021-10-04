@@ -1,7 +1,6 @@
 *{
     margin: auto;
-    background-color:#fafae0;
-    color: #283618
+    background-color:#000;
 }
 body
 {
@@ -10,7 +9,7 @@ body
 @media screen and (max-width: 991px)
 {
     h1{
-        font-size: 36;
+        font-size: 52px;
     }
     h2{
         font-size: 28px;
@@ -18,7 +17,7 @@ body
 }
 @media screen and (max-width: 767px) {
     h1{
-        font-size: 38px;
+        font-size: 48px;
     }
     h2{
         font-size: 30px;
@@ -31,6 +30,95 @@ body
     h2{
         font-size: 34px;
     }
+}
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+.stars, .twinkling{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+    display:block;
+  }
+  
+  .stars {
+    background:#000 url(images/stars.png) repeat top center;
+    z-index:0;
+  }
+  
+  .twinkling{
+    background:transparent url(images/twinkling.png) repeat top center;
+    z-index:1;
+    animation:move-twink-back 200s linear infinite;
+  }  
+
+.container-header{
+    display: flex;
+    flex-direction: row;
+    
+}
+.text-2{
+    font-size: 64px;
+}
+.header-box{
+    display: flex;
+    flex-direction:column;
+    position:relative;
+    background-color: #000 !important;
+    height: 720px;
+    width:100%;
+    align-items: center;
+
+}
+
+.text-1{
+    position:absolute;
+    left:0;
+    z-index: 3;
+}
+.text-1 > h1{
+    color:#c5c6c7 !important;
+}
+.text-2{
+    text-align: center;
+    z-index: 3;
+}
+.text-3{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 5px;
+    z-index: 3;
+    color: #c5c6c7 !important;
+}
+.header-text {
+    background-color: #000 !important;
+    color: #cf291d
+}
+.header-text h1 {
+    background-color: #000 !important;
+}
+.header-box > h1:nth-child(2){
+    justify-content: center;
+}
+.header-box > h1:last-child{
+    justify-content: right;
+}
+.header-box-image{
+    align-content: flex-end;
+    background-color: #fff !important;
+    height: 720px;
+    width:50%;
+}
+.header-box-image >picture > img{
+    max-width:100%;
+    height: 720px;
+    overflow: hidden;
 }
 .container-1{
     display:flex;
@@ -65,8 +153,8 @@ body
 
 .divider{
     margin-top: 100px;
-    margin-bottom: 100px;
-    border:2px #bc6c25 solid;
+    margin-bottom: 50px;
+    border:2px #c5c6c7 solid;
     border-radius: 10px;
     width: 80%;
 }
@@ -81,6 +169,9 @@ body
     margin-top: 100px;
     margin-bottom: 100px;
 }
+.box-section > h1{
+    color: #cf291d;
+}
 .nested-container-2 {
     margin-top:10px;
     display: flex;
@@ -89,14 +180,12 @@ body
     align-items: center;
 }
 .circle{
-    background-color: #dda15e;
+    background-color:#cf291d;
     margin-top:10px;
     padding:10px !important;
     border-radius:100%;
 }
 .nested-container-2 div{
-    background-color: #dda15e;
-    border: #283618 2px solid;
     margin: 15px;
     padding:2px;
     max-width:25%;
@@ -104,7 +193,8 @@ body
 }
 .nested-container-2 div p
 {
-    background-color: #dda15e;
+    background-color: #000;
+    color: #c5c6c7
 }
 .nested-container-2 div:nth-child(2) p {
     margin: 5px;
@@ -113,15 +203,27 @@ body
 .container-4 > div {
     display: flex;
     justify-content: center;
-    max-width: 600px;
+    max-width: 100%;
     min-width: 300px;
-    border: 5px #283618 solid;
+    border: 5px #c5c6c7 solid;
     margin: 20px;
-    box-shadow: 5px 10px 5px #000;
 }
+
 .project-info-picture
 {
+    width: 75%;
     flex-wrap: nowrap;
+}
+.project-info-description
+{
+    width:25%;
+}
+.project-pic > p {
+    margin-top: 8px;
+    color: #c5c6c7;
+}
+.project-pic > h2 {
+    color: #cf291d;
 }
 .project-name
 {
@@ -132,16 +234,18 @@ body
     
 }
 .project-pic > img {
-    width:100%;
-    max-height: 600px;
+    max-width: 100%;
 }
 .project-container{
     flex-wrap: nowrap;
+    max-width: 100%;
+    height: 100%;
 }
 .stack-info{
-    justify-content: left;
+    justify-content: right;
     align-items:flex-start;
-    min-width: auto;
+    max-width: none;
+    min-width: 0%;
 }
 .stack-info div
 {
@@ -178,8 +282,16 @@ body
 .divider-contact{
     border-radius: 10px;
     height: 140px;
-    border: 2px #bc6c25 solid;
+    border: 2px #c5c6c7 solid;
+}
+a:link{
+    color: #c5c6c7;
+}
+a:visited{
+    color: #c5c6c7;
 }
 .created-by{
+    color:#c5c6c7;
     text-align: right;
+    margin-right: 3px;
 }
