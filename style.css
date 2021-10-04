@@ -211,7 +211,7 @@ body
 
 .project-info-picture
 {
-    width: 75%;
+    width: 85%;
     flex-wrap: nowrap;
 }
 .project-info-description
@@ -294,4 +294,40 @@ a:visited{
     color:#c5c6c7;
     text-align: right;
     margin-right: 3px;
+}
+
+.slideshow-container{
+    position: relative;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+.slide2{
+    display:none;
 }
