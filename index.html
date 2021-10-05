@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Jordan Hans</title>
+    <title>Jordan Hans Software Engineer Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic" />
     <script type ="text/javascript" src="javascript.js"></script>
@@ -16,13 +16,6 @@
           <div class="header-text text-2"><h1>Jordan Hans</h1></div>
           <div class="header-text text-3"><h1>I am a Software Engineer</h1></div>
         </div>
-        <div class = "header-box-image">
-          <picture>
-            <source media="(min-width: 900px)" srcset="images/placeholder.JPG">
-            <source media="(min-width: 360px)" srcset="images/placeholder2.jpg">
-          <img src="images/placeholder.JPG">
-          </picture>
-        </div>
       </div>
     </header>
     <div class ="divider"></div>
@@ -31,16 +24,42 @@
         <h1>About Me</h1>
       </div>
       <div class = "container-2-box-2">
-        <img src= "images/aboutMeImage.jpg">
+        <img src= "images/aboutMeImage.jpg" alt="Jordan Hans Married About Me">
       </div>
       <div class= "nested-container-2">
         <div class = "circle"></div>
-        <div class = "circle"></div>
-        <div class = "circle"></div>
         <div class= "nested-1-box-1">
-          <p>I am a 27 year old, soon to be software engineer currently studying computer science at the University of Whitewater-Wisconsin. 
-            My main focus is on backend web development using Node.JS, I also enjoy using C#, Python, and spending time creating games in Unity.
+          <p>My name is Jordan Hans, I'm 27 years old, and I will be recieving my Bachelors of Science in Computer Science in December of 2021.  
+            I'm enjoying life with my wife, our two cats, and our wonderful dog.
           </p>
+      </div>
+    </div>
+    <div class ="divider"></div>
+    <div class="container-column">
+      <div class ="box-section">
+        <h1>What I do?</h1>
+      </div>
+    </div>
+    <div class="container-rows">
+      <div class="box-wrap">
+        <img src="images/What I Do/noun software.png" alt="Jordan Hans Software Design Engineer Arduino RaspberryPi">
+        <h2>Software Design</h2>
+        <p>I'm interested in working with C#, Java, C++ to create desktop applications, I also enjoy creating
+          web parsing scripts with Python. I also have experience working with microarchitecture systems such as an Arduino and Raspberry Pi.
+        </p>
+      </div>
+      <div class="box-wrap">
+        <img src="images/What I Do/noun web.png" alt="Jordan Hans Web Development NodeJS MySQL MongoDB">
+        <h2>Backend Web Development</h2>
+        <p>Backend web development is another one of my strong suites, such as using Node.JS to create web applications. I've also worked
+          with MongoDB and MySQL.</p>
+      </div>
+      <div class="box-wrap">
+        <img src="images/What I Do/noun game.png" alt="Jordan Hans Game Design Development Unity C#">
+        <h2>Game Design/Development</h2>
+        <p>In my free time I enjoy game design and development! I've been working with Unity to create games, this also gives me a good
+          opportunity to practice with C#.
+        </p>
       </div>
     </div>
     <div class ="divider"></div>
@@ -51,34 +70,39 @@
     </div>
     <div class="container-rows container-4">
       <div class="container-4-nested-1">
-        <div class="project-container container-rows">
+        <div class="project-container container-column">
+          <div class ="project-name">
+            <h2>Fate-Control</h2>
+          </div>
           <div class="slideshow-container">
             <div class="project-info-picture mySlides1 mySlides">
               <div class="numbertext">1/3</div>
-              <div class="project-pic"><img src="images/Projects/Fate.png"></div>
+              <div class="project-pic"><img src="images/Projects/Fate.png" alt="Shooter Top-Down Aracde Game Unity"></div>
             </div>
             <div class="project-info-picture mySlides1 mySlides slide2">
               <div class="numbertext">2/3</div>
-              <div class="project-pic"><img src="images/Projects/Fate2.png"></div>
+              <div class="project-pic"><img src="images/Projects/Fate2.png" alt="Shooter Top-Down Aracde Game Unity"></div>
             </div>
             <div class="project-info-picture mySlides1 mySlides slide2">
               <div class="numbertext">3/3</div>
-              <div class="project-pic"><img src="images/Projects/Fate3.png"></div>
+              <div class="project-pic"><img src="images/Projects/Fate3.png"alt="Shooter Top-Down Aracde Game Unity"></div>
             </div>
             <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides1(1)">&#10095;</a>
           </div>
+        </div>
           <div class="project-info-description">
             <div class="project-pic">
-              <h2>Fate-Control</h2>
-              <p>Fate-Control is a 2D Top-Down TwinStick Shooter</p>
-              <p>This was the result of a semester long group project where my role in the group was to program
-                the game using C#.</p>
-              <p><a href="https://thefifenation.itch.io/fate-control" target="_blank">Itch.io</a></p>
-              <p>Credits: Jordan Hans, Luc Ragainis, Jonah Bogacki</p>
+              <div><p>Fate-Control is a 2D Top-Down TwinStick Shooter</p></div>
+              <div><p>This was the result of a semester long group project where my role in the group was to program
+                the game using C#. This game features 8 different weapons, each weapon having a different ammo pool and
+                upgrade path. </p> </div>
+              <div><p><a href="https://thefifenation.itch.io/fate-control" target="_blank">Itch.io</a></p></div>
+              <div><p>Credits: Jordan Hans, Luc Ragainis, Jonah Bogacki</p></div>
             </div>
           </div>
-          <div class="container-rows stack-info">
+          <div class="container-column stack-info">
+            <div class="spacer"></div>
             <div class ="stack">
               <img src="images/Stack/Unity.png">
             </div>
@@ -86,91 +110,107 @@
               <img src= "images/Stack/cSharp.png">
             </div>
           </div>
-        </div>
       </div>
-      <div class="container-4-nested-2">
-        <div class="project-container container-rows">
+      <div class="containerNoFlex">
+        <div class="project-container container-column">
+          <div class ="project-name">
+            <h2>Chat.IO</h2>
+          </div>
           <div class="project-info-picture">
-            <div class="project-pic"><iframe width="100%" height="480px" src="https://www.youtube.com/embed/dDGuCTQBesQ" 
-              title="YouTube video player" frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+            <div class="container">
+              <iframe width="640px" height="360px" src="https://www.youtube.com/embed/dDGuCTQBesQ" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
+            </div>
+              <div class="container-column stack-info">
+                <div class ="stack">
+                  <img src="images/Stack/NodeLogo.png">
+                </div>
+                <div class="stack">
+                  <img src= "images/Stack/Mongo.png">
+                </div>
+              </div>
           </div>
+        </div>
           <div class="project-info-description">
-            <div class="project-pic">
-              <h2>Chat.IO</h2>
-              <p>Chat.IO is a realtime messaging platform featuring secure login, instant messaging, and custom chat rooms.</p>
-              <p>Chat.IO began as a project for my Node.JS class. After the class I took the oppportunity to  incorporate other 
-                elements such as a MongoDB database, a secure hashed login, and custom chat rooms.
-              </p>
-              <p><a href="https://github.com/hansjm10/ChatIO" target="_blank">Github</a></p>
+            <div class="project-pic not-slideshow">
+              <div>
+                <p>Chat.IO is a realtime messaging platform featuring secure login, instant messaging, and custom chat rooms.</p>
+              </div>
+              <div>
+                <p>Chat.IO began as a project for my Node.JS class. After the class I took the oppportunity to  incorporate other 
+                  elements such as a MongoDB database, a secure hashed login, and custom chat rooms.</p>
+              </div>
+              <div><p><a href="https://github.com/hansjm10/ChatIO" target="_blank">Github</a></p></div>
             </div>
           </div>
-          <div class="container-rows stack-info">
-            <div class ="stack">
-              <img src="images/Stack/NodeLogo.png">
-            </div>
-            <div class="stack">
-              <img src= "images/Stack/Mongo.png">
-            </div>
-        </div>
-        </div>
       </div>
-      <div class="cotainer-4-nested-3">
-        <div class="project-container container-rows">
+      <div class="containerNoFlex">
+        <div class="project-container container-column">
+          <div class ="project-name">
+            <h2>Video Game Recommender</h2>
+          </div>
           <div class="project-info-picture">
-            <div class="project-pic">
-              <iframe width="100%" height="480px" src="https://www.youtube.com/embed/IaNUeXn8hx0" title="YouTube video player" frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="container">
+                  <iframe width="640px" height="360px" src="https://www.youtube.com/embed/IaNUeXn8hx0" title="YouTube video player" frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
+                </div>
+                <div class="container-column stack-info">
+                  <div class ="stack">
+                    <a href="https://www.mysql.com" target="_blank"><img src= "images/Stack/mysql.png"></a>
+                  </div>
+                  <div class="stack">
+                    <img src= "images/Stack/cSharp.png">
+                  </div>
+                </div>
             </div>
-          </div>
           <div class="project-info-description">
-            <div class="project-pic">
-              <h2>Video Game Recommender</h2>
-              <p>Video Game Recommender is a database lookup tool using C# and MySQL.</p>
-              <p>This application incorporated a database of 18,000 different videogames, which the user can create a account,
-                after a short questionaire the user can save their favorite games and be recommended a list of 
-                other games based on their saved games.
-              </p>
-              <p><a href="https://github.com/hansjm10/CS366-DBMS" target="_blank">Github</a></p>
-              <p>Credits: Jordan Hans, Shawn Pieper, Bradly Olson</p>
+            <div class="project-pic not-slideshow">
+              <div><p>Video Game Recommender is a database lookup tool using C# and MySQL.</p></div>
+              <div>
+                <p>This application incorporated a database of 18,000 different videogames, which the user can create a account,
+                  after a short questionaire the user can save their favorite games and be recommended a list of 
+                  other games based on their saved games.
+                </p>
+              </div>
+              <div><p><a href="https://github.com/hansjm10/CS366-DBMS" target="_blank">Github</a></p></div>
+              <div><p>Credits: Jordan Hans, Shawn Pieper, Bradly Olson</p></div>
             </div>
           </div>
-          <div class="container-rows stack-info">
-            <div class ="stack">
-              <a href="https://www.mysql.com" target="_blank"><img src= "images/Stack/mysql.png"></a>
-            </div>
-            <div class="stack">
-              <img src= "images/Stack/cSharp.png">
-            </div>
-          </div>
+          
         </div>
       </div>
       <div class="container-4-nested-4">
-        <div class="project-container container-rows">
+        <div class="project-container container-column">
+          <div class ="project-name">
+            <h2>Soaracide</h2>
+          </div>
           <div class="slideshow-container">
             <div class="project-info-picture mySlides2 mySlides">
               <div class="numbertext">1/2</div>
-              <div class="project-pic"><img src="images/Projects/SoaracideTitle.png"></div>
+              <div class="project-pic"><img src="images/Projects/SoaracideTitle.png" alt="Soaracide Game Processing Flappy Bird Clone"></div>
             </div>
             <div class="project-info-picture mySlides2 mySlides slide2">
               <div class="numbertext">2/2</div>
-              <div class="project-pic"><img src="images/Projects/Soaracide2.png"></div>
+              <div class="project-pic"><img src="images/Projects/Soaracide2.png" alt="Soaracide Game Processing Flappy Bird Clone"></div>
             </div>
             <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides2(1)">&#10095;</a>
           </div>
           <div class="project-info-description">
             <div class="project-pic">
-              <h2>Soaracide</h2>
-              <p>Soaracide is a game created using Processing, a sketchbook language.</p>
-              <p>In Soaracide your objective is to hold down spacebar
-                to gain altitude and avoid the bars flying at you, if you crash at anytime it is game over.
-              </p>
-              <p><a href="https://github.com/Yangac14/Soaracide" targt= "_blank">Github</a></p>
-              <p>Credits: Jordan Hans, Andrew Yang, Isaiah Ewing</p>
+              <div><p>Soaracide is a game created using Processing, a sketchbook language.</p></div>
+              <div>
+                <p>In Soaracide your objective is to hold down spacebar
+                  to gain altitude and avoid the bars flying at you, if you crash at anytime it is game over.
+                </p>
+              </div>
+              <div><p><a href="https://github.com/Yangac14/Soaracide" target="_blank">Github</a></p></div>
+              <div><p>Credits: Jordan Hans, Andrew Yang, Isaiah Ewing</p></div>
             </div>
           </div>
-          <div class="container-rows stack-info">
+          <div class="container-column stack-info">
             <div class ="stack">
               <img src="images/Stack/Processing_2021_logo.png">
             </div>
