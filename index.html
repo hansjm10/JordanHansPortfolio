@@ -2,7 +2,9 @@
 <html lang="en">
   <head>
     <title>Jordan Hans Software Engineer Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name ="description" content ="My name is Jordan Hans, I am a software engineer that specializes in C#, Java,
+    Node.JS.">
+    <link rel="stylesheet" href="style.css?1">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic" />
     <script type ="text/javascript" src="javascript.js"></script>
   </head>
@@ -12,16 +14,16 @@
         <div class = "header-box">
           <div class="stars"></div>
           <div class="twinkling"></div>
-          <div class="header-text text-1"><h1>Hello my name is:</h1></div>
-          <div class="header-text text-2"><h1>Jordan Hans</h1></div>
-          <div class="header-text text-3"><h1>I am a Software Engineer</h1></div>
+          <div class="header-text"><h1><span class="text-1">Hello my name is:</span>
+            <span class="text-2">Jordan Hans</span>
+            <span class="text-3">I am a Software Engineer</span></h1></div>
         </div>
       </div>
     </header>
     <div class ="divider"></div>
     <div class="container-column">
       <div class = "box-section">
-        <h1>About Me</h1>
+        <h2>About Me</h2>
       </div>
       <div class = "container-2-box-2">
         <img src= "images/aboutMeImage.jpg" alt="Jordan Hans Married About Me">
@@ -37,26 +39,26 @@
     <div class ="divider"></div>
     <div class="container-column">
       <div class ="box-section">
-        <h1>What I do?</h1>
+        <h2>What I do?</h2>
       </div>
     </div>
     <div class="container-rows">
       <div class="box-wrap">
         <img src="images/What I Do/noun software.png" alt="Jordan Hans Software Design Engineer Arduino RaspberryPi">
-        <h2>Software Design</h2>
+        <h3>Software Design</h3>
         <p>I'm interested in working with C#, Java, C++ to create desktop applications, I also enjoy creating
           web parsing scripts with Python. I also have experience working with microarchitecture systems such as an Arduino and Raspberry Pi.
         </p>
       </div>
       <div class="box-wrap">
         <img src="images/What I Do/noun web.png" alt="Jordan Hans Web Development NodeJS MySQL MongoDB">
-        <h2>Backend Web Development</h2>
+        <h3>Backend Web Development</h3>
         <p>Backend web development is another one of my strong suites, such as using Node.JS to create web applications. I've also worked
           with MongoDB and MySQL.</p>
       </div>
       <div class="box-wrap">
         <img src="images/What I Do/noun game.png" alt="Jordan Hans Game Design Development Unity C#">
-        <h2>Game Design/Development</h2>
+        <h3>Game Design/Development</h3>
         <p>In my free time I enjoy game design and development! I've been working with Unity to create games, this also gives me a good
           opportunity to practice with C#.
         </p>
@@ -65,14 +67,14 @@
     <div class ="divider"></div>
     <div class="container-column">
       <div class ="box-section">
-        <h1>Projects</h1>
+        <h2>Projects</h2>
       </div>
     </div>
     <div class="container-rows container-4">
       <div class="container-4-nested-1">
         <div class="project-container container-column">
           <div class ="project-name">
-            <h2>Fate-Control</h2>
+            <h3>Fate-Control</h3>
           </div>
           <div class="slideshow-container">
             <div class="project-info-picture mySlides1 mySlides">
@@ -114,7 +116,7 @@
       <div class="containerNoFlex">
         <div class="project-container container-column">
           <div class ="project-name">
-            <h2>Chat.IO</h2>
+            <h3>Chat.IO</h3>
           </div>
           <div class="project-info-picture">
 
@@ -149,7 +151,7 @@
       <div class="containerNoFlex">
         <div class="project-container container-column">
           <div class ="project-name">
-            <h2>Video Game Recommender</h2>
+            <h3>Video Game Recommender</h3>
           </div>
           <div class="project-info-picture">
                 <div class="container">
@@ -184,7 +186,7 @@
       <div class="container-4-nested-4">
         <div class="project-container container-column">
           <div class ="project-name">
-            <h2>Soaracide</h2>
+            <h3>Soaracide</h3>
           </div>
           <div class="slideshow-container">
             <div class="project-info-picture mySlides2 mySlides">
@@ -217,11 +219,52 @@
           </div>
         </div>
       </div>
+      <div class="container-4-nested-4">
+        <div class="project-container container-column">
+          <div class ="project-name">
+            <h3>Adopt Wisconsin Pets</h3>
+          </div>
+          <div class="slideshow-container">
+            <div class="project-info-picture mySlides3 mySlides">
+              <div class="numbertext">1/2</div>
+              <div class="project-pic"><img src="images/Projects/AdoptPetsWisconsin1.png" alt="Soaracide Game Processing Flappy Bird Clone"></div>
+            </div>
+            <div class="project-info-picture mySlides3 mySlides slide2">
+              <div class="numbertext">2/2</div>
+              <div class="project-pic"><img src="images/Projects/AdoptPetsWisconsin2.png" alt="Soaracide Game Processing Flappy Bird Clone"></div>
+            </div>
+            <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides3(1)">&#10095;</a>
+          </div>
+          <div class="project-info-description">
+            <div class="project-pic">
+              <div><p>Adopt Pets Wisconsin is a NodeJS web app built with a MongoDB database.</p></div>
+              <div>
+                <p>Adopt Pets Wisconsin is a resource that webscrapes infromation from Wisconsin humane shelters. This
+                  populates a MongoDB database which the app then reads from. It allows users to change the distance they want to search
+                  for an animal and their zipcode to find nearby results.
+                </p>
+              </div>
+              <div><p><a href="http://adoptpetswisconsin.com" target="_blank">Live Link</a></p></div>
+              <div><p><a href="https://github.com/hansjm10/AdoptWisconsinPets" target="_blank">Github</a></p></div>
+              <div><p>Credits: Jordan Hans</p></div>
+            </div>
+          </div>
+          <div class="container-column stack-info">
+            <div class ="stack">
+              <img src="images/Stack/NodeLogo.png">
+            </div>
+            <div class="stack">
+              <img src= "images/Stack/Mongo.png">
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="divider"></div>
     <div class="container-column">
       <div class ="box-section">
-        <h1>Reach out to me!</h1>
+        <h2>Reach out to me!</h2>
       </div>
     </div>
     <div class ="container-rows contact-me-container">
@@ -237,7 +280,7 @@
     </div>
     </div>
     <div class ="created-by">
-      <h1>Created By: Jordan Hans</h1>
+      <h2>Created By: Jordan Hans</h2>
     </div>
   </body>
 </html>
